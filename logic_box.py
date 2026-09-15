@@ -11,6 +11,7 @@ while True:
     choice = int(input("Enter your choice: "))
 
     # Option 1 - Pattern
+    
     if choice == 1:
 
         rows = int(input("Enter the number of rows for the pattern: "))
@@ -22,6 +23,7 @@ while True:
             print("*" * i)
 
     # Option 2 - Number Analyzer
+
     elif choice == 2:
 
         print()
@@ -42,6 +44,7 @@ while True:
         print("Sum of all numbers from", start, "to", end, "is:", total)
 
     # Option 3 - Exit
+
     elif choice == 3:
 
         print("Exiting the program. Goodbye!")
