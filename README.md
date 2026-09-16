@@ -1,64 +1,90 @@
-# 📦 LogicBox (Pattern Generator & Number Analyzer)
+# Pattern Generator and Number Analyzer
 
 **Author:** Krisha Savaliya  
-**Course/Project:** Python Practical Assignment  
+**Environment:** Visual Studio Code (VS Code)  
+**Python Version:** Python 3.14.6  
 
-A Python-based menu-driven console application designed to practice control structures, loops (`for` and `while`), the `range()` function, and conditional statements.
+## 📌 Project Description
 
----
+This is a simple Python menu-driven program that allows users to:
 
-## 🎯 Project Objectives
+* Generate a star (`*`) pattern.
+* Analyze numbers in a given range.
+* Check whether numbers are Even or Odd.
+* Calculate the sum of all numbers in the range.
+* Exit the program when needed.
 
-* **🔄 Control Structures & Loops:** Implement `for` and `while` loops for iterative operations.
-* **🖥️ Menu-Driven Interface:** Provide an interactive console menu allowing users to choose between generating a pattern, analyzing a range of numbers, or exiting.
-* **💡 Logical Problem Solving:** Check whether numbers in a given range are Even or Odd, calculate their sum, and output custom formatted results.
+## 🛠 Technologies Used
 
----
+* Python 3.14.6
+* Visual Studio Code (VS Code)
 
-## ✨ Features & Functionality
+## 📂 Features
 
-### 1. 🌟 Pattern Generator
-* Generates a clean right-angled triangle star pattern based on the number of rows entered by the user.
-* Uses string multiplication (`"*" * i`) inside a `for` loop for efficient rendering.
+### 1. Generate Pattern
 
-### 2. 🔍 Number Analyzer
-* Takes a starting number and ending number from the user.
-* Iterates through the given range using `range()` and checks if each number is **Even** or **Odd**.
-* Calculates and displays the total sum of all numbers in the specified range.
+* Enter the number of rows.
+* The program generates a star pattern.
 
-### 3. 🚪 Exit
-* Safely terminates the program loop with a friendly goodbye message.
+### 2. Analyze a Range of Numbers
 
----
+* Enter the starting and ending number.
+* The program checks whether each number is Even or Odd.
+* It calculates the sum of all numbers in the given range.
 
-## 📋 Menu Options
+### 3. Exit
 
-```text
-Select an option:
-1. Generate a Pattern
-2. Analyze a Range of Numbers
-3. Exit
-Enter your choice:
-'''
+* Exits the program.
+
+## ▶️ How to Run
+
+1. Open **VS Code**.
+2. Save the program as `logic_box.py`.
+3. Open the integrated terminal.
+4. Run:
+
+```bash
+python logic_box.py
+
+📸 Sample Output
 Welcome to the Pattern Generator and Number Analyzer!
 
 Select an option:
-1. Generate a Pattern
-2. Analyze a Range of Numbers
-3. Exit
+
+Generate a Pattern
+
+Analyze a Range of Numbers
+
+Exit
+Enter your choice: 1
+Enter the number of rows for the pattern: 5
+
+Pattern:
+*
+
+Select an option:
+
+Generate a Pattern
+
+Analyze a Range of Numbers
+
+Exit
 Enter your choice: 2
 
 Enter the start of the range: 10
-Enter the end of the range: 12
-
+Enter the end of the range: 13
 Number 10 is Even
 Number 11 is Odd
 Number 12 is Even
-Sum of all numbers from 10 to 12 is: 33
+Number 13 is Odd
+Sum of all numbers from 10 to 13 is: 46
 
 Select an option:
-1. Generate a Pattern
-2. Analyze a Range of Numbers
-3. Exit
+
+Generate a Pattern
+
+Analyze a Range of Numbers
+
+Exit
 Enter your choice: 3
 Exiting the program. Goodbye!
